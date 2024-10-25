@@ -1,10 +1,14 @@
 // Add your code here
-namespace agent2 {
+namespace wip {
     /**
-     * List of blocks for limited agent
+     * Current position of player
      */
     //% block
     export function whereAmI(){
         player.say(player.position())
+    }
+
+    export function direction(){
+        player.say(player.getOrientation())
     }
 }
